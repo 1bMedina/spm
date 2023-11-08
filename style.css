@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Groovy Day';
+    src: url('fonts/GroovyDayRegular.woff2') format('woff2'),
+        url('fonts/GroovyDayRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'amyshandwriting';
+    src: url('/fonts/amyshandwriting.woff2') format('woff2'),
+        url('/fonts/amyshandwriting.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'amyshandwriting';
+
+}
+body{
+    background-color: #464D77
+}
+nav {
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    align-items: right;
+    background-color: #FFD6EB;
+     
+ }
+ nav a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #464D77;
+     font-weight: 800;
+     font-family: 'amyshandwriting';
+     align-items: right;
+     font-size: 1.2em;
+     padding: 10px;
+ }
+ nav a:hover{
+     background: #464D77;
+     transition: 0.5s;
+     font-family: 'amyshandwriting';
+     border-radius: 50%;
+ }
+ 
+ a:hover{
+     background: white;
+     transition: 0.5s;
+     font-family: 'amyshandwriting';
+ 
+ }
+ nav a:hover{
+     color: #FFD6EB;
+     font-family: 'amyshandwriting';
+ 
+ }
+ nav li{
+    list-style: none;
+ }
+ h1{
+    font-family: "Groovy Day";
+    color: #FFD6EB;
+    text-align: center;
+    padding: 2%;
+    font-size: 4rem;
+ }
+ #box1{
+    width:600px;
+	height:200px;
+	margin:60px;
+	padding:20px;
+    background-color: #FFD6EB;
+    border-radius: 25px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    align-items: center;
+ }
+ h3 {
+    color: #464D77;
+ }
